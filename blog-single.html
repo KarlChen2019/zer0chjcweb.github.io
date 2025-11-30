@@ -46,7 +46,6 @@
                     <i class="fa fa-envelope"></i>info@example.com</p>
                 </li>
               </ul>
-
             </div>
           </div>
           <div class="col-lg-4 col-md-3">
@@ -75,7 +74,7 @@
         </div>
         <div class="collapse navbar-collapse" id="bizcoxx_main_menu">
           <ul class="navbar-nav">
-            <li class="current-menu-item">
+            <li>
               <a href="index.html">首页 </a>
             </li>
             <li>
@@ -84,7 +83,7 @@
             <li>
               <a href="services.html">承接服务 </a>
             </li>
-            <li>
+            <li class="current-menu-item">
               <a href="blog.html">企业动态 </a>
             </li>
             <li>
@@ -112,7 +111,7 @@
                   <a href="index.html">首页</a>
                 </li>
                 <li>
-                  <span>404错误</span>
+                  <span>动态详情</span>
                 </li>
               </ul>
             </div>
@@ -122,24 +121,110 @@
     </div>
   </div>
   <!-- Banner end -->
-  <!-- 404 start -->
-  <section id="error-section" class="mt-100">
+  <!-- Single blog start -->
+  <section id="blog-section" class="blog-area mt-100">
     <div class="container">
       <div class="row">
-        <div class="col-xl-12">
-          <div class="error-page text-center">
-            <img src="assets/images/404.png" alt="404 error page">
-            <div class="mt-50">
-              <h4>哎呀！页面未找到</h4>
-              <p>或许搜索能帮到您，或者返回</p>
-              <a class="btn btn-primary" href="index.html">返回首页</a>
+        <!-- Blog contents -->
+        <div>
+          <!-- Blog content details -->
+          <div class="blog-post-item style-01">
+            <div class="thumb">
+              <img src="assets/images/blog/blog-single.jpg" alt="blog image">
+            </div>
+            <div class="post-category mt-30">
+              <a href="blog-single.html">标签1</a>
+              <a href="blog-single.html">标签2</a>
+              <a href="blog-single.html">标签3</a>
+            </div>
+            <div class="content">
+              <h3 class="title">标题</h3>
+              <ul class="post-meta d-flex align-items-center mt-25">
+                <li>
+                  <a href="#">
+                    作者</a>
+                </li>
+                <li class="separator"></li>
+                <li class="date">
+                  <a href="#">2025-11-01</a>
+                </li>
+              </ul>
+              <p class="text">描述... </p>
+              <div class="post-inner-content">
+                <h4 class="mt-40">1 - 小标题</h4>
+                <p>描述... </p>
+                <p class="text">描述... </p>
+                <h4 class="mt-40">2 - 小标题 </h4>
+                <p class="text">描述... </p>
+                <div class="thumb mt-30">
+                  <img src="assets/images/blog/blog-single-2.jpg" alt="blog image">
+                </div>
+                <h4 class="mt-40">3 - 小标题</h4>
+                <p class="text">描述... </p>
+              </div>
+            </div>
+          </div>
+          <!-- Related post -->
+          <div class="related-post mt-70">
+            <h3>其他文章</h3>
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="blog-post-item style-01 mt-30">
+                  <div class="thumb">
+                    <img src="assets/images/blog/02.jpg" alt="blog image">
+                  </div>
+                  <div class="post-category mt-30">
+                    <a href="blog-single.html">动态</a>
+                  </div>
+                  <div class="content">
+                    <h4 class="title">
+                      <a href="blog-single.html">标题</a>
+                    </h4>
+                    <ul class="post-meta d-flex align-items-center mt-25">
+                      <li>
+                        <a href="#">
+                          作者</a>
+                      </li>
+                      <li class="separator"></li>
+                      <li class="date">
+                        <a href="#">2025-11-01</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="blog-post-item style-01 mt-30">
+                  <div class="thumb">
+                    <img src="assets/images/blog/03.jpg" alt="blog image">
+                  </div>
+                  <div class="post-category mt-30">
+                    <a href="blog-single.html">动态</a>
+                  </div>
+                  <div class="content">
+                    <h4 class="title">
+                      <a href="blog-single.html">标题</a>
+                    </h4>
+                    <ul class="post-meta d-flex align-items-center mt-25">
+                      <li>
+                        <a href="#">
+                          作者</a>
+                      </li>
+                      <li class="separator"></li>
+                      <li class="date">
+                        <a href="#">2025-11-01</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- 404 end -->
+  <!-- Single blog end -->
   <!-- Footer start -->
   <footer id="footer-section" class="footer-area mt-100">
     <div class="container">
@@ -203,6 +288,8 @@
   <script src="assets/js/jquery-2.2.4.min.js"></script>
   <!-- bootstrap -->
   <script src="assets/js/bootstrap.min.js"></script>
+  <!-- app -->
+  <script src="assets/js/app.js"></script>
   <!-- magnific popup -->
   <script src="assets/js/jquery.magnific-popup.js"></script>
   <!-- wow -->
